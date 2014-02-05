@@ -1,5 +1,7 @@
 script: phantomjs test/runner.js test/index.html
 notifications:
+  on_success: change
+  on_failure: always
   hipchat:
     rooms:
       secure: Wzu1geBGg1FJswvJrqbrb+01pEpROHRDmSLUVsZ25ezsddqnj1Oz/9WYWE2Qd9KlKCiiuHYG7Ohe3m+yvF/v9WGbbGfjXMIRqKLJyaeG/kIP6RHpM4SdnO/R3RGe/utCtdP3R0rcK8CQM/Mgtq5XfXMmSiOS0jaoZhHTFGk4lnQ=
