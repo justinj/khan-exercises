@@ -4,7 +4,6 @@
     var line = KhanUtil.kline;
 
     asyncTest('two identical lines should be equal', 1, function() {
-        strictEqual(false, true);
         var result = line.equal([[1, 1], [3, 3]], [[1, 1], [3, 3]]);
         strictEqual(result, true);
         start();
